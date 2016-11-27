@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Zavd2</title>
+        <title>FORMS</title>
         <link rel="stylesheet" href="style.css">
         <style>
             fieldset {
@@ -18,12 +18,14 @@
         </style>
     </head>
     <body>
+        <!-- START PROJECT -->
         <div id="wrapper">
     	    <div id="main">
     		    <div id="container">
     			    <div id="content" role="main">
                         <form action="page.php">
                     <strong>Order Form</strong><br/>
+                            <!-- fieldse1 -->
                     <fieldset>
                         <legend>General info</legend>
                         <label>Email</label> 
@@ -33,7 +35,9 @@
                         <label>Password</label> 
                         <input type="password" placeholder="Password" required> 
                     </fieldset>
+                      <!--end fieldse1 -->      
                     <br>
+                        <!-- fieldse2 -->    
                     <fieldset>
                         <legend>User Info</legend>
                           <label>First Name</label> 
@@ -49,7 +53,8 @@
                              <label>About me</label> 
                         <textarea rows="5" cols="19"></textarea>
                     </fieldset>
-
+                        <!-- end fieldse2 -->
+                        <!-- fieldse3 -->  
                     <fieldset>
                         <legend>Order Info</legend>
                         <label>Product</label>
@@ -69,7 +74,7 @@
                         <label>Delivery Date</label>
                         <input type="date" name="deliveryDate" required>
                     </fieldset>
-
+                    <!-- end fieldse3 -->
                      <input type="reset" value="Reset">
                      <input type="submit" value="Submit">
                      </form>
@@ -77,6 +82,7 @@
                 </div>
             </div>
         </div>
+        <!-- END PROJECT -->
     </body>
 </html>
 
